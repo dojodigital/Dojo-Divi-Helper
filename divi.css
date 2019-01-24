@@ -1,0 +1,54 @@
+@media (max-width: 650px) {
+	.alignleft, .alignright {
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.wp-caption, .entry-content img {
+		float: none;
+		clear:both;
+		display: block;
+		margin: 0 auto 1em auto;
+		max-width: 90%;
+	}
+}
+.screen-reader-text {
+	clip: rect(1px,1px,1px,1px);
+	position: absolute;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
+	clip: auto;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	height: auto;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	text-decoration: none;
+	text-transform: none;
+	width: auto;
+	z-index: 100000;
+}
+
+.search article img,
+.archive article img {
+	width: auto;
+	max-width: 150px;
+	max-height: 100px;
+	float: left;
+	padding-right: 30px;
+}
+#main-header,
+#top-header{
+z-index:10;
+}
+
+
